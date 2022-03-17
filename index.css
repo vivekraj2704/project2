@@ -1,0 +1,85 @@
+*{
+    background-color: black;
+}
+
+
+.fir{
+        color: red;
+        font-size: 5px;
+        background-color: red;
+        background-size: 1000px;
+        margin-top: 300px ;
+        margin-bottom: 5px;
+        margin-left: 45%;
+        margin-right: 55%;
+        position: relative;
+        animation-name: first;
+        animation-duration: 0.8s;
+        animation-iteration-count: 15;
+    }
+@keyframes first{
+    from{width: 10px
+    }
+    to{width: 25px
+    }
+}
+.sec{
+    color: red;
+    background-color: red;
+    font-size: 5px;
+    background-size: 1000px;
+    margin-top: 0px ;
+    margin-bottom: 5px;
+    margin-left: 45%;
+    margin-right: 55%;
+    position: relative;
+    animation-name: second;
+    animation-duration: 0.8s;
+    animation-iteration-count: 15;
+}
+@keyframes second{
+from{width: 30px
+}
+to{width: 15px
+}
+}
+.thi{
+    color: red;
+    background-color: red;
+    font-size: 5px;
+    background-size: 1000px;
+    margin-top: 0px ;
+    margin-bottom: 5px;
+    margin-left: 45%;
+    margin-right: 55%;
+    position: relative;
+    animation-name: third;
+    animation-duration: 0.8s;
+    animation-iteration-count: 15;
+}
+@keyframes third{
+from{width: 10px
+}
+to{width: 25px
+}
+}
+.fou{
+    color: red;
+    background-color: red;
+    font-size: 5px;
+    background-size: 1000px;
+    margin-top: 0px ;
+    margin-bottom: 5px;
+    margin-left: 45%;
+    margin-right: 55%;
+    position: relative;
+    animation-name: four;
+    animation-duration: 0.8s;
+    animation-iteration-count: 15;
+}
+@keyframes four{
+from{width: 30px
+}
+to{width: 15px
+}
+}
